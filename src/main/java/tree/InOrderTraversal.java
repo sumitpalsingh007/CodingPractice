@@ -49,8 +49,9 @@ public class InOrderTraversal {
     {
         Integer arr[] = { 8,3,10,1,6,null,14,null,null,4,7,13 };
         Integer arr1[] = {1,null,2,3};
-        var tree = TreeBuilder.constructTree(arr1);
-        System.out.println("inorder :- " + nonRecursiveInorderTraversal(tree));
+        Integer arr2[] = {1,2,3,4,5,6,7,8,9,0};
+        var tree = TreeBuilder.constructTree(arr2);
+        System.out.println("inorder :- " + inorderTraversal(tree));
 
     }
 }
